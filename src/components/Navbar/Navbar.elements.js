@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaMagento } from "react-icons/fa";
+import { VscLaw } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
@@ -24,7 +24,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-  color: #fff;
+  color: white;
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(VscLaw)`
   margin-right: 0.5rem;
 `;
 
