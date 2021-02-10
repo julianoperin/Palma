@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #57068c;
+  background: #fff;
 `;
 
 export const PricingWrapper = styled.div`

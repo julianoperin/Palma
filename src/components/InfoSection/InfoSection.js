@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
-import imgg from "../../images/lawyers2.png";
+import img from "../../images/lawyers2.png";
 import {
   InfoSec,
   InfoRow,
@@ -48,7 +48,7 @@ function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={start}>
-                <Img src={imgg} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>
