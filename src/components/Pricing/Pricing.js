@@ -1,8 +1,9 @@
 import React from "react";
 import { Button } from "../../globalStyles";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { GiCrystalBars } from "react-icons/gi";
-import { GiCutDiamond, GiRock } from "react-icons/gi";
+import { GiLovers } from "react-icons/gi";
+import { GiRock } from "react-icons/gi";
+import { BsPersonCheckFill } from "react-icons/bs";
 import { GiFloatingCrystal } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import {
@@ -32,13 +33,12 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardCost>Strength</PricingCardCost>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>
+                    We’re on your side and will not stop fighting until your
+                    story has been heard, respected, and justly awarded
+                  </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -46,15 +46,14 @@ function Pricing() {
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <GiLovers />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardCost>Compassion</PricingCardCost>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>
+                    Our client-focused commitment has earned our firm more than
+                    200 five-star reviews from those we've served
+                  </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -62,15 +61,14 @@ function Pricing() {
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <BsPersonCheckFill />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardCost>Leadership</PricingCardCost>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>
+                    With decades of trial experience insurance companies know we
+                    won't settle for unfair compensation
+                  </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>

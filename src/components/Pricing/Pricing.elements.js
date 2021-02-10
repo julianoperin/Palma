@@ -89,7 +89,7 @@ export const PricingCardPlan = styled.h3`
 `;
 
 export const PricingCardCost = styled.h4`
-  font-size: 40px;
+  font-size: 30px;
 `;
 
 export const PricingCardLength = styled.p`
@@ -108,4 +108,6 @@ export const PricingCardFeatures = styled.ul`
 
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.4;
 `;

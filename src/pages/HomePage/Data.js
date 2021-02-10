@@ -22,13 +22,13 @@ export const homeObjTwo = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Instant Setup",
-  headline: "Extremely quick onboarding process",
+  topLine: "Professionalism",
+  headline: "Our Attorneys",
   description:
-    "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-  buttonLabel: "Get a Free Case Review",
+    "The award-winning team of personal injury attorneys at Raphaelson & Levine are fierce advocates with decades of trial experience and the grit to get the results you deserve.",
+  buttonLabel: "Meet the Team",
   imgStart: "",
-  img: require("../../images/hammerTwo.jpg").default,
+  img: require("../../images/team3.jpg").default,
   alt: "Vault",
   start: "",
 };
@@ -39,14 +39,13 @@ export const homeObjThree = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Sarah Jeni",
-  headline:
-    "Ultra helped me increase my revenue by over 3X in less than 3 months!",
+  topLine: "Signs of Integrity, Passion, & Skill",
+  headline: "AWARDS GIVEN TO OUR ATTORNEYS",
   description:
-    "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-  buttonLabel: "View Case Study",
+    "At PALMAS, the awards that are most important to us are the ones we win in court on behalf of our clients. However, we also recognize the value of awards from our peers, such as the one given to us by The National Law Journal for the last seven years. The most prestigious awards in the legal community are not the result of popularity contests or political maneuvering. Instead, they are the result of excellent litigation, proven results, and genuine contribution to the field of law.",
+  buttonLabel: "See Awards",
   imgStart: "start",
-  img: require("../../images/hammerTwo.jpg").default,
+  img: require("../../images/hammerJustice.png").default,
   alt: "Vault",
   start: "true",
 };
