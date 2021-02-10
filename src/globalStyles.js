@@ -6,6 +6,15 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  animation: opening .7s ease-in-out forwards;
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
  } 
 `;
 
