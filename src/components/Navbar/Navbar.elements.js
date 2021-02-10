@@ -31,6 +31,8 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 `;
 
 export const NavIcon = styled(VscLaw)`
@@ -76,7 +78,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #6a2d91;
   }
 
   @media screen and (max-width: 960px) {
@@ -113,7 +115,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #6a2d91;
       transition: all 0.3s ease;
     }
   }
