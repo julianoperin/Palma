@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#000")};
 `;
 
 export const InfoRow = styled.div`
@@ -66,7 +66,7 @@ export const Img = styled.img`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
@@ -76,6 +76,6 @@ export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
 `;

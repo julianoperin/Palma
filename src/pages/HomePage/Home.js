@@ -6,9 +6,10 @@ function Home() {
   return (
     <>
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjFour} />
+      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} />
+
       <Pricing />
     </>
   );

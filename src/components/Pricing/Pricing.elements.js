@@ -44,7 +44,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #242424;
+  background: #000;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 500px;

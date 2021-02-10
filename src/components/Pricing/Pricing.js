@@ -40,7 +40,7 @@ function Pricing() {
                     story has been heard, respected, and justly awarded
                   </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>See More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to="/sign-up">
@@ -55,7 +55,7 @@ function Pricing() {
                     200 five-star reviews from those we've served
                   </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>See More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to="/sign-up">
@@ -70,7 +70,7 @@ function Pricing() {
                     won't settle for unfair compensation
                   </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>See More</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

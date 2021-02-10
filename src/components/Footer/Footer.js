@@ -33,13 +33,14 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          By signing up, you are opting in to Attorney at Work's free practice
+          tips newsletter and occasional emails with news and offers
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
         <Form>
           <FormInput name="email" type="email" placeholder="Your Email" />
           <Button fontBig>Subscribe</Button>
         </Form>
+        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
@@ -48,31 +49,31 @@ function Footer() {
             <FooterLink to="/sign-up">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Clients</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
+            <FooterLinkTitle>The Firm</FooterLinkTitle>
+            <FooterLink to="/">Attorneys</FooterLink>
+            <FooterLink to="/">Awards</FooterLink>
+            <FooterLink to="/">Case Results</FooterLink>
             <FooterLink to="/">Contact</FooterLink>
-            <FooterLink to="/">Support</FooterLink>
-            <FooterLink to="/">Destinations</FooterLink>
-            <FooterLink to="/">Sponsorships</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to="/">Submit Video</FooterLink>
-            <FooterLink to="/">Ambassadors</FooterLink>
-            <FooterLink to="/">Agency</FooterLink>
-            <FooterLink to="/">Influencer</FooterLink>
+            <FooterLinkTitle>Areas Served</FooterLinkTitle>
+            <FooterLink to="/">Bronx</FooterLink>
+            <FooterLink to="/">Brooklyn</FooterLink>
+            <FooterLink to="/">Long Island</FooterLink>
+            <FooterLink to="/">Queens</FooterLink>
+            <FooterLink to="/">Manhattan</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/">Instagram</FooterLink>
-            <FooterLink to="/">Facebook</FooterLink>
-            <FooterLink to="/">Youtube</FooterLink>
-            <FooterLink to="/">Twitter</FooterLink>
+            <FooterLinkTitle>Legal</FooterLinkTitle>
+            <FooterLink to="/">Privacy Policy</FooterLink>
+            <FooterLink to="/">Disclaimer</FooterLink>
+            <FooterLink to="/">Sitemap</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -80,30 +81,47 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            ULTRA
+            PALMAS
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>All Rights Reserved © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLink
+              href="http://www.facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+            <SocialIconLink
+              href="//www.instagram.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
-              href={
-                "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
-              }
+              href="//www.youtube.com"
               rel="noopener noreferrer"
               target="_blank"
               aria-label="Youtube"
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+            <SocialIconLink
+              href="//www.twitter.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+            <SocialIconLink
+              href="//www.linkedin.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>

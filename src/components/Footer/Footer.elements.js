@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { FaMagento } from "react-icons/fa";
+import { VscLaw } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #000;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -23,15 +23,16 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 22px;
+  padding: 0 30px 0 30px;
+  line-height: 1.4;
 `;
 
 export const FooterSubText = styled.p`
-  margin-bottom: 24px;
-  font-size: 20px;
+  margin-top: 14px;
+  font-size: 16px;
+  color: #6a2d91;
 `;
 
 export const Form = styled.form`
@@ -144,13 +145,14 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(FaMagento)`
+export const SocialIcon = styled(VscLaw)`
   margin-right: 10px;
 `;
 
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+  font-size: 1.2rem;
 `;
 
 export const SocialIcons = styled.div`
@@ -161,6 +163,11 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  color: #6a2d91;
   font-size: 24px;
+
+  &:hover {
+    color: #fff;
+    transition: 0.3s ease-out;
+  }
 `;
