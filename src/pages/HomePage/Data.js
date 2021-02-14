@@ -11,7 +11,7 @@ export const homeObjOne = {
     "We fight for life-changing results that provide families with hope for a better future. ",
   buttonLabel: "Get a Free Case Review",
   imgStart: "",
-  img: require("../../images/lawyers2.png").default,
+  img: require("../../images/finance.svg").default,
   alt: "Credit Card",
   start: "",
 };

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
 export const Nav = styled.nav`
-  background: #000;
+  background: #c81e51;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #000;
+    background: #c81e51;
   }
 `;
 
