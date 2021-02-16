@@ -53,27 +53,29 @@ function Footer() {
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>The Firm</FooterLinkTitle>
-            <FooterLink to="/">Attorneys</FooterLink>
-            <FooterLink to="/">Awards</FooterLink>
-            <FooterLink to="/">Case Results</FooterLink>
-            <FooterLink to="/">Contact</FooterLink>
+            <FooterLinkTitle>Resources</FooterLinkTitle>
+            <FooterLink to="/">Palmas Blog</FooterLink>
+            <FooterLink to="/">Inspiration Center</FooterLink>
+            <FooterLink to="/">Success Stories</FooterLink>
+            <FooterLink to="/">Developer Docs</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Areas Served</FooterLinkTitle>
-            <FooterLink to="/">Bronx</FooterLink>
-            <FooterLink to="/">Brooklyn</FooterLink>
-            <FooterLink to="/">Long Island</FooterLink>
-            <FooterLink to="/">Queens</FooterLink>
-            <FooterLink to="/">Manhattan</FooterLink>
+            <FooterLinkTitle>Partners</FooterLinkTitle>
+            <FooterLink to="/">Resellers</FooterLink>
+            <FooterLink to="/">Affiliates</FooterLink>
+            <FooterLink to="/">Designers</FooterLink>
+            <FooterLink to="/">Education</FooterLink>
+            <FooterLink to="/">Partnerships</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Legal</FooterLinkTitle>
+            <FooterLinkTitle>Company</FooterLinkTitle>
+            <FooterLink to="/">About</FooterLink>
+            <FooterLink to="/">Careers</FooterLink>
+            <FooterLink to="/">Contact</FooterLink>
+            <FooterLink to="/">Terms</FooterLink>
             <FooterLink to="/">Privacy Policy</FooterLink>
-            <FooterLink to="/">Disclaimer</FooterLink>
-            <FooterLink to="/">Sitemap</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>

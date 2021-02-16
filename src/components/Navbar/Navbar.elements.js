@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { VscLaw } from "react-icons/vsc";
+import { SiBattleDotNet } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
@@ -35,7 +35,7 @@ export const NavLogo = styled(Link)`
   font-weight: 200;
 `;
 
-export const NavIcon = styled(VscLaw)`
+export const NavIcon = styled(SiBattleDotNet)`
   margin-right: 0.5rem;
 `;
 

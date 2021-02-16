@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { VscLaw } from "react-icons/vsc";
+import { SiBattleDotNet } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
@@ -145,7 +145,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(VscLaw)`
+export const SocialIcon = styled(SiBattleDotNet)`
   margin-right: 10px;
 `;
 
