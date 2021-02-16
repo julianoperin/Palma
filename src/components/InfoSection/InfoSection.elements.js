@@ -47,7 +47,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? "#57068C" : "#57068C")};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#000" : "#C81E51")};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -69,7 +69,7 @@ export const Heading = styled.h1`
   font-size: 38px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+  color: ${({ lightText }) => (lightText ? "#C81E51" : "#1c2237")};
 `;
 
 export const Subtitle = styled.p`
@@ -77,5 +77,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 28px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#1c2237" : "#1c2237")};
 `;

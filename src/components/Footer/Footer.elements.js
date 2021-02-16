@@ -3,7 +3,7 @@ import { VscLaw } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background-color: #000;
+  background-color: #ffdfef;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ export const FooterSubHeading = styled.p`
 export const FooterSubText = styled.p`
   margin-top: 14px;
   font-size: 16px;
-  color: #6a2d91;
+  color: #000;
 `;
 
 export const Form = styled.form`
@@ -163,7 +163,7 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #6a2d91;
+  color: #c81e51;
   font-size: 24px;
 
   &:hover {

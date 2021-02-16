@@ -4,14 +4,13 @@ export const homeObjOne = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: "New York City",
-  headline:
-    "Over 100 years of combined experience and 3 Billion recovered for our clients",
+  topLine: "",
+  headline: "ECOMMERCE FOR A NEW ERA...",
   description:
-    "We fight for life-changing results that provide families with hope for a better future. ",
+    "Our turnkey eCommerce solution makes it easy to build a website and grow your business - and it’s completely free.",
   buttonLabel: "Get a Free Case Review",
   imgStart: "",
-  img: require("../../images/finance.svg").default,
+  img: require("../../images/shopOne.svg").default,
   alt: "Credit Card",
   start: "",
 };
