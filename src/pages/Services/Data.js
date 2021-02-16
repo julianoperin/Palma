@@ -22,7 +22,7 @@ export const homeObjOne = {
     "All the marketing expertise you need to accelerate your business. From SEO to PPC and everything in-between, our team of experts has you covered. ",
   buttonLabel: "Grow Your Business",
   imgStart: "",
-  img: require("../../images/servicesTwo.svg").default,
+  img: require("../../images/servicesFive.svg").default,
   alt: "Credit Card",
 };
 
