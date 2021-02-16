@@ -1,6 +1,6 @@
 import React from "react";
 import "./Form.css";
-import img from "../../images/mail.svg";
+import img from "../../images/mailSent.svg";
 
 const FormSuccess = () => {
   return (

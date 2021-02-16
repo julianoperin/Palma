@@ -55,8 +55,8 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/about" onClick={closeMobileMenu}>
-                  About Us
+                <NavLinks to="/features" onClick={closeMobileMenu}>
+                  Features
                 </NavLinks>
               </NavItem>
               <NavItem>

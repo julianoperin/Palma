@@ -50,6 +50,6 @@ export const homeObjFour = {
     "Palmas Payments is designed to fully complement your Volusion store, allowing you to receive funds faster while promoting customer confidence. For more information, download the Credit Card Acceptance guide.",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: require("../../images/justice1.jpg").default,
+  img: require("../../images/servicesFour.svg").default,
   alt: "Vault",
 };

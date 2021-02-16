@@ -23,8 +23,8 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-  margin-bottom: 24px;
-  font-size: 22px;
+  margin-bottom: 32px;
+  font-size: 20px;
   padding: 0 30px 0 30px;
   line-height: 1.4;
 `;

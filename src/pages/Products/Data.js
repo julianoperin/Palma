@@ -4,12 +4,12 @@ export const homeObjOne = {
   lightTopLine: false,
   lightTextDesc: false,
   topLine: "Commitment",
-  headline: "Learn about the Law Offices of Juliano A. Periny",
+  headline: "The All-in-One Ecommerce Website Builder",
   description:
-    "When you need knowledgeable counsel from a highly experienced lawyer, schedule a consultation at our office. We will guide you through the complicated legal process and give you the advice you need to make informed decisions. Our courtroom-tested attorney works hard to secure the most favorable resolution that is available in your case, whether you have filed a personal injury claim or you need a divorce lawyer.",
-  buttonLabel: "Contact Us",
+    "Palmas's all-in-one platform makes it easy to get your store set up in minutes — and selling for years to come. Our sleek dashboard makes it easy to run your store, whether it’s accepting credit card payments, stocking items or updating your site design. And with our expert team of New York City-based ecommerce support specialists available 24/7, we’re always here to guide you through every step of your ecommerce journey.",
+  buttonLabel: "Start My 14-day Trial",
   imgStart: "",
-  img: require("../../images/meeting.jpg").default,
+  img: require("../../images/featuresOne.svg").default,
   alt: "Credit Card",
 };
 
@@ -18,13 +18,13 @@ export const homeObjTwo = {
   lightText: true,
   lightTopLine: true,
   lightTextDesc: true,
-  topLine: "Over 100 years",
-  headline: "Our History",
+  topLine: "Freedom",
+  headline: "Store Editor",
   description:
-    "Juliano A. Periny, is the founding member of The Palmas Law Firm. The majority of his practice focuses on Business & Franchise litigation; Family law, (such as divorces and child custody disputes); and U.S. Immigration law. Mr. Periny is also experienced in handling personal injury cases. Mr. Murray is admitted to practice before the Courts of the State of New Jersey and the State of New York, as well as the U.S. District Court (District of New Jersey) , the U.S. District Court (Southern District of New York), the U.S. District Court (Eastern District of New York). He has experience before the trial and appeals Courts at both the state and federal levels. ",
+    "Customize the look and feel of your site with professionally-designed themes and our powerful site editor. Curate your pages with drag and drop content blocks for social media, image galleries, videos and more.",
   buttonLabel: "Learn More",
   imgStart: "",
-  img: require("../../images/perini.jpg").default,
+  img: require("../../images/featuresTwo.svg").default,
   alt: "Vault",
 };
 
@@ -32,13 +32,13 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Family Legacy",
-  headline: "A tradition of Excelence",
+  topLine: "Set Up Payments",
+  headline: "Perfect Product Pages",
   description:
-    "Since the early founding of our firm, the personal injury lawyers at Palmas have been well-respected among our peers for the level of service and commitment that we bring to each and every case we represent. Our successful record of recovering millions on behalf of injury clients has earned us a reputation as a leading firm that stands up for the injured and fights to ensure that they receive the compensation they are entitled. Our successes in and out of the courtroom have earned many of our lawyers recognition as leaders in their fields. Several members of our team have received the title of “Super Lawyers” and have been included on esteemed lists of leading lawyers, including New Jersey Top 100 Lawyers and National Trial Lawyers Top 100 Trial Lawyers.",
+    "Drag and drop products right into your store, customize your look with endless page options and take advantage of so much more on the Palmas platform. We offer variant pricing for custom product options and you can create custom discounts and coupons",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: require("../../images/meeting3.jpg").default,
+  img: require("../../images/featuresThree.svg").default,
   alt: "Vault",
 };
 
