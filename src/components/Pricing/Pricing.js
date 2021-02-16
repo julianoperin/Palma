@@ -1,9 +1,10 @@
 import React from "react";
 import { Button } from "../../globalStyles";
-import { GiLovers } from "react-icons/gi";
-import { GiRock } from "react-icons/gi";
+import { RiShoppingCart2Line } from "react-icons/ri";
+import { HiOutlineStatusOnline } from "react-icons/hi";
 import { BsPersonCheckFill } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
+import { IoMdSpeedometer } from "react-icons/io";
 import {
   PricingSection,
   PricingWrapper,
@@ -29,13 +30,13 @@ function Pricing() {
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <IoMdSpeedometer style={{ color: "#C91F51" }} />
                 </PricingCardIcon>
-                <PricingCardCost>Strength</PricingCardCost>
+                <PricingCardCost>Get Going</PricingCardCost>
                 <PricingCardFeatures>
                   <PricingCardFeature>
-                    We’re on your side and will not stop fighting until your
-                    story has been heard, respected, and justly awarded
+                    Get step-by-step guidance on how to build and launch a
+                    website with expert starter guides and planning tools.
                   </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>See More</Button>
@@ -44,13 +45,13 @@ function Pricing() {
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiLovers />
+                  <HiOutlineStatusOnline style={{ color: "#C91F51" }} />
                 </PricingCardIcon>
-                <PricingCardCost>Compassion</PricingCardCost>
+                <PricingCardCost>Get Online</PricingCardCost>
                 <PricingCardFeatures>
                   <PricingCardFeature>
-                    Our client-focused commitment has earned our firm more than
-                    200 five-star reviews from those we've served
+                    Get discovered with a professional website. Easily customize
+                    with our free website builder.
                   </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>See More</Button>
@@ -59,13 +60,13 @@ function Pricing() {
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <BsPersonCheckFill />
+                  <RiShoppingCart2Line style={{ color: "#C91F51" }} />
                 </PricingCardIcon>
-                <PricingCardCost>Leadership</PricingCardCost>
+                <PricingCardCost>Get Selling</PricingCardCost>
                 <PricingCardFeatures>
                   <PricingCardFeature>
-                    With decades of trial experience insurance companies know we
-                    won't settle for unfair compensation
+                    All-in-one powerful eCommerce tools to simplify order
+                    management, shipping, and payments.
                   </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>See More</Button>
