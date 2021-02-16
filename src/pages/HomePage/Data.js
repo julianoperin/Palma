@@ -7,7 +7,7 @@ export const homeObjOne = {
   topLine: "",
   headline: "ECOMMERCE FOR A NEW ERA...",
   description:
-    "Our turnkey eCommerce solution makes it easy to build a website and grow your business - and it’s completely free.",
+    "Our turnkey eCommerce solution makes it easy to build a website and grow your business - and it’s completely free. Build a business that’s ready for anything with the flexibility of Open SaaS.",
   buttonLabel: "Get a Free Case Review",
   imgStart: "",
   img: require("../../images/shopOne.svg").default,
@@ -22,12 +22,12 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Professionalism",
-  headline: "Our Attorneys",
+  headline: "Outperform the Competition",
   description:
-    "The award-winning team of personal injury attorneys at Raphaelson & Levine are fierce advocates with decades of trial experience and the grit to get the results you deserve.",
-  buttonLabel: "Meet the Team",
+    "Meet the flexible, open SaaS platform leading a new era of ecommerce. Explore limitless possibilities to Build, Innovate and Grow.",
+  buttonLabel: "Sing Up",
   imgStart: "",
-  img: require("../../images/team3.jpg").default,
+  img: require("../../images/shopTwo.svg").default,
   alt: "Vault",
   start: "",
 };
@@ -44,7 +44,7 @@ export const homeObjThree = {
     "At PALMAS, the awards that are most important to us are the ones we win in court on behalf of our clients. The most prestigious awards in the legal community are not the result of popularity contests or political maneuvering. Instead, they are the result of excellent litigation, proven results, and genuine contribution to the field of law.",
   buttonLabel: "See Awards",
   imgStart: "start",
-  img: require("../../images/hammerJustice.png").default,
+  img: require("../../images/shopFour.svg").default,
   alt: "Vault",
   start: "true",
 };
@@ -55,13 +55,13 @@ export const homeObjFour = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Nyc Personal Injury Since 1977",
-  headline: "About Us",
+  topLine: "Powerful",
+  headline: "Ignite Growth, Not Complexity",
   description:
-    "We handle complex injury cases and don’t rest until justice has been delivered for each client. Over the past three decades, thousands of New Yorkers have trusted us to provide hope for a better future.",
+    "With BigCommerce, we can get our product online in minutes. Gone are the long delays to make changes on our website and launching new products. ",
   buttonLabel: "Learn More",
   imgStart: "start",
-  img: require("../../images/office.jpg").default,
+  img: require("../../images/shopThree.svg").default,
   alt: "Vault",
   start: "true",
 };

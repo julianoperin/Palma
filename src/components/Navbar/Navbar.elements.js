@@ -78,7 +78,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #6a2d91;
+    border-bottom: 2px solid #000;
   }
 
   @media screen and (max-width: 960px) {
@@ -115,7 +115,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #6a2d91;
+      color: #000;
       transition: all 0.3s ease;
     }
   }

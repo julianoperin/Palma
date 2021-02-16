@@ -1,10 +1,8 @@
 import React from "react";
 import { Button } from "../../globalStyles";
-import { AiFillThunderbolt } from "react-icons/ai";
 import { GiLovers } from "react-icons/gi";
 import { GiRock } from "react-icons/gi";
 import { BsPersonCheckFill } from "react-icons/bs";
-import { GiFloatingCrystal } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import {
   PricingSection,

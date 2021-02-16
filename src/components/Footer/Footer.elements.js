@@ -19,7 +19,7 @@ export const FooterSubscription = styled.section`
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: #fff;
+  color: #000;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -32,7 +32,7 @@ export const FooterSubHeading = styled.p`
 export const FooterSubText = styled.p`
   margin-top: 14px;
   font-size: 16px;
-  color: #000;
+  color: #c81e51;
 `;
 
 export const Form = styled.form`
@@ -92,7 +92,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 160px;
   box-sizing: border-box;
-  color: #fff;
+  color: #000;
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -106,7 +106,7 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;
 
@@ -135,7 +135,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
+  color: #c81e51;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -150,7 +150,7 @@ export const SocialIcon = styled(VscLaw)`
 `;
 
 export const WebsiteRights = styled.small`
-  color: #fff;
+  color: #000;
   margin-bottom: 16px;
   font-size: 1.2rem;
 `;
@@ -167,7 +167,7 @@ export const SocialIconLink = styled.a`
   font-size: 24px;
 
   &:hover {
-    color: #fff;
+    color: #000;
     transition: 0.3s ease-out;
   }
 `;
